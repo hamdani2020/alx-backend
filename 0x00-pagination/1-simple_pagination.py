@@ -6,6 +6,7 @@ import math
 from typing import List
 from typing import Tuple
 
+
 def index_range(page: int, page_size: int) -> Tuple[int, int]:
     """It returns a list of pagination parameters
     """
