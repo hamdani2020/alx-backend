@@ -62,7 +62,7 @@ class Server:
                 data_count += 1
                 continue
             if data_count == page_size:
-                next_index = -1
+                next_index = i
                 break
             page_information = {
                 'index': index,
