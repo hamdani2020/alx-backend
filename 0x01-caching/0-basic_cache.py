@@ -4,6 +4,7 @@
 
 from base_caching import BaseCaching
 
+
 class BasicCache(BaseCaching):
     """It allows storing and retrieving objects
     from dictionary
