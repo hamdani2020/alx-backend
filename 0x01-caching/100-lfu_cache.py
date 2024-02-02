@@ -22,8 +22,8 @@ class LFUCache(BaseCaching):
         """
         if key is None or item is None:
             return
-        if (len(self.cache_data.keys()) == BaseCaching.MAX_ITEMS
-            and key not in self.cache_data.keys()):
+        if len(self.cache_data.keys()) == BaseCaching.MAX_ITEMS
+        and key not in self.cache_data.keys():
             discardKey = min(self.uses, key=self.uses.get)
             del self.cache_data[discardKey]
             del self.uses[discardKey]
