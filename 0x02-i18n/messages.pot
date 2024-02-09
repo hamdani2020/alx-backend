@@ -1,16 +1,16 @@
-# Translations template for PROJECT.
+# Translations template for i18n.
 # Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+# FIRST ALHASSAN HAMDANI GANDI <hamdanialhassangandi2020@gmail.com>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"Report-Msgid-Bugs-To: hamdanialhassangandi2020@gmail.com\n"
 "POT-Creation-Date: 2024-02-09 20:54+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2024-02-09 HO:MI+ZONE\n"
+"Last-Translator: ALHASSAN HAMDANI GANDI <hamdanialhassangandi2020@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
