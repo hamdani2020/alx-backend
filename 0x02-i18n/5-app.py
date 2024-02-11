@@ -62,7 +62,6 @@ def get_locale() -> str:
 def get_user() -> Union[Dict, None]:
 
     It retrieves the user based on user id
-    
     login_id = request.args.get('login_as')
     if login_id:
         return users.get(int(login_id))
@@ -71,9 +70,7 @@ def get_user() -> Union[Dict, None]:
 
 @app.before_request
 def before_request() -> None:
-    
     It performs routines
-    
     user = get_user()
     g.user = user
 """
