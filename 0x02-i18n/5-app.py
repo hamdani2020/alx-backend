@@ -21,10 +21,10 @@ app.config.from_object(Config)
 app.url_map.strict_slashes = False
 babel = Babel(app)
 users = {
-    1: {"name": "Amadu", "locale": "fr", "timezone": "Europe/Paris"},
-    2: {"name": "LusiTech", "locale": "en", "timezone": "US/Central"},
-    3: {"name": "Spy", "locale": "kg", "timezone": "Vulcan"},
-    4: {"name": "Hunter", "locale": None, "timezone": "Europe/London"},
+    1: {"name": "Balou", "locale": "fr", "timezone": "Europe/Paris"},
+    2: {"name": "Beyonce", "locale": "en", "timezone": "US/Central"},
+    3: {"name": "Spock", "locale": "kg", "timezone": "Vulcan"},
+    4: {"name": "Teletubby", "locale": None, "timezone": "Europe/London"},
 }
 
 
